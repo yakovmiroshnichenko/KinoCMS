@@ -1,9 +1,7 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
 import os
-from config.settings import PROJECT_ROOT
 import sys
-sys.path.append(str(PROJECT_ROOT / 'src'))
 
 
 def main():

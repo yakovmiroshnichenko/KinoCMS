@@ -4,6 +4,7 @@ from src.cinema.models import MovieSession
 
 
 class User(AbstractUser):
+    # TODO: Абстрактный пользователь?
     CHOISES_language = [('uk', 'Українська'), ('ru', 'Русский')]
     CHOISES_gender = [('Male', 'Male'), ('Female', 'Female')]
     first_name = models.CharField(max_length=50)
